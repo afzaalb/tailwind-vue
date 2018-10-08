@@ -14,6 +14,16 @@ export default new Router({
       component: Home,
     },
     {
+      path: '/blog',
+      name: 'blog',
+      component: Home,
+    },
+    {
+      path: '/contact',
+      name: 'contact',
+      component: Home,
+    },
+    {
       path: '/about',
       name: 'about',
       // route level code-splitting
