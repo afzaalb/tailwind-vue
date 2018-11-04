@@ -1,7 +1,9 @@
 <template>
   <div id="app" class="h-full flex flex-col bg-grey-lighter">
     <Header />
-    <router-view/>
+    <div class="bg-grey-light flex-1">
+        <router-view/>
+    </div>
     <Footer />
   </div>
 </template>

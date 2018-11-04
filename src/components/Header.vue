@@ -2,12 +2,12 @@
     <header class="bg-purple-darker uppercase">
         <div class="container flex items-center">
             <router-link to="/" class="logo font-bold text-2xl">
-                TailVue
+                Persona
             </router-link>
             <nav class="app-redirect-nav ml-4">
                 <ul class="flex list-reset align-center">
-                    <router-link tag="li" to="/blog">
-                        <a class="px-3">Blog</a>
+                    <router-link tag="li" to="/browse">
+                        <a class="px-3">Browse</a>
                     </router-link>
                     <router-link tag="li" to="/contact">
                         <a class="px-3">Contact</a>

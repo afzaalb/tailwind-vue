@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-grey-light flex-1 py-20 text-center">
+    <section class="py-20 text-center">
         <div class="container">
             <div class="flex flex-row justify-center items-center space-around mb-6">
                 <img src="https://vuejs.org/images/logo.png" width="90" alt="VueJS" />

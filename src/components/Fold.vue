@@ -1,6 +1,12 @@
 <template>
     <div class="mx-auto w-full md:w-1/2">
-        <input class="shadow border p-4 rounded w-full mb-4" type="text" name="text-field" placeholder="Type here and see Vue in action" v-model="message" />
+        <input
+            class="shadow border p-4 rounded w-full mb-4"
+            type="text"
+            name="text-field"
+            placeholder="Type here and see Vue in action"
+            v-model="message"
+        />
         <p class="m-0">{{ message }}</p>
     </div>
 </template>

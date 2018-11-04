@@ -1,6 +1,8 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Home from './views/Home.vue';
+import Browse from './views/Browse.vue';
+import Contact from './views/Contact.vue';
 
 Vue.use(Router);
 
@@ -14,14 +16,14 @@ export default new Router({
       component: Home,
     },
     {
-      path: '/blog',
+      path: '/browse',
       name: 'blog',
-      component: Home,
+      component: Browse,
     },
     {
       path: '/contact',
       name: 'contact',
-      component: Home,
+      component: Contact,
     },
     {
       path: '/about',
