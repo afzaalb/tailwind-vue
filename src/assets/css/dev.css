@@ -1,0 +1,42 @@
+@tailwind preflight;
+@tailwind components;
+
+body{
+    line-height: 1.6;
+}
+
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  @apply text-base text-black;
+}
+
+img{
+    @apply align-middle;
+}
+
+a{
+    @apply text-white inline-block no-underline;
+}
+
+header a{
+    height: 60px;
+    line-height: 60px;
+    @apply text-sm;
+}
+
+.call-to-action{
+    @apply font-bold;
+}
+
+.app-redirect-nav li.router-link-exact-active a{
+    @apply font-bold;
+}
+
+.app-redirect-nav li.router-link-exact-active a,
+.app-redirect-nav li:hover a{
+    @apply border-b-2 border-white border-solid;
+}
+
+@tailwind utilities;

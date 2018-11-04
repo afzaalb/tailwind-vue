@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "tw": "postcss ./src/assets/css/dev.css -o ./src/assets/css/production.css",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
@@ -23,6 +24,7 @@
     "babel-jest": "^23.0.1",
     "less": "^3.0.4",
     "less-loader": "^4.1.0",
+    "tailwindcss": "^0.6.6",
     "vue-template-compiler": "^2.5.17"
   }
 }
